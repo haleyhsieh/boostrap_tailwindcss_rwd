@@ -2,10 +2,10 @@
 // <!-- Initialize Swiper -->
 
 
-// $(function () {
+//  $(function () {
 
 
-//     var swiper1 = new Swiper('#video_swiper', {
+//    var swiper1 = new Swiper('#video_swiper', {
        
 //         autoplay: stop,
 //         loop: true,
@@ -19,8 +19,7 @@
 //             },
 //             768: {
 //                 slidesPerView: 3,
-//                 spaceBetween: 15,
-
+//                spaceBetween: 15,
 //             }
 
 
@@ -32,7 +31,6 @@
 //             el: '.swiper-pagination',
 //             clickable: true,
 //         },
-
 
 //         navigation: {
 //             nextEl: '.swiper-button-next',
@@ -177,4 +175,41 @@ document.addEventListener("DOMContentLoaded", function () {
       prevEl: '#student_swiper .swiper-button-prev',
     },
   });
+});
+
+
+$(function () {
+    var swiper1 = new Swiper('#video_swiper', {
+        loop: true,
+        slidesPerView: 3,
+        spaceBetween: 15,
+        speed: 2000,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false
+        },
+        breakpoints: {
+            320: {
+                slidesPerView: 1,
+                spaceBetween: 15
+            },
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 15
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 15
+            }
+        },
+        freeMode: true,
+        pagination: {
+            el: '#video_swiper .swiper-pagination',
+            clickable: true
+        },
+        navigation: {
+            nextEl: '#video_swiper .swiper-button-next',
+            prevEl: '#video_swiper .swiper-button-prev'
+        }
+    });
 });

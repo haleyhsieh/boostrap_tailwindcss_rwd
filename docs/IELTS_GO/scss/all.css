@@ -78,11 +78,7 @@
 .ml-s {
   margin-left: 1.5rem;
 }
-@media (max-width: 1440px) {
-  .ml-s {
-    margin-left: 0;
-  }
-}
+
 
 @media (max-width: 1440px) {
   .weekicon {
@@ -101,11 +97,10 @@
 
 .header-menu {
   position: fixed;
-  max-height: auto;
+  height: 100%;
   z-index: 100;
   width: 100vw;
   text-align: center;
-  margin-top: -20px;
 }
 
 .kv-banner {
@@ -244,7 +239,7 @@
 }
 
 .why_steven {
-  margin-top: 200px;
+  margin-top: 50px;
 }
 @media (max-width: 1024px) {
   .why_steven {

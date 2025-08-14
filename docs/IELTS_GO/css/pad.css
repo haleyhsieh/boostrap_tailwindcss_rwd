@@ -2,8 +2,8 @@
     font-size: 12px;
     letter-spacing: 1.5px; }
   
-   .top-bar-width {
-    min-width: 1300px; }
+   /* .top-bar-width {
+    min-width: 1300px; } */
 
     /* @media(max-width:768px){
     .navbar-brand{
@@ -13,10 +13,7 @@
   
    .ml-s {
     margin-left: 1.5rem; }
-    @media (max-width: 1440px) {
-      .ml-s {
-        margin-left: 0; } }
-  
+ 
    .bg-light-grey {
     background-color: #f0ebeb; }
   
@@ -26,7 +23,7 @@
     z-index: 100;
     width: 100vw;
     text-align: center;
-    margin-top: -20px; }
+    }
   
    .kv-banner {
     padding-top: 60px; }

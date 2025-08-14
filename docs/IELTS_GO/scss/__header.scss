@@ -5,7 +5,7 @@
 
 .logo{
     left: -13vw;
-    top: -1.3vh;
+    top: -17px;
     @media (max-width:$laptop_xl) {
     left: -8vw; }
     @media (max-width:$lapto_x) {
@@ -31,29 +31,29 @@
     }
 }
 
-.top-news{
+// .top-news{
 
-    @media (max-width:$laptop_xl) {
-    margin-left: 5rem;
-    }
-    @media (max-width:$lapto_x){
-    margin-left: 31rem;
-    width: 47%;
+//     @media (max-width:$laptop_xl) {
+//     margin-left: 5rem;
+//     }
+//     @media (max-width:$lapto_x){
+//     margin-left: 31rem;
+//     width: 47%;
 
-    }
+//     }
 
-    @media (max-width:$pad){
-    margin-left: 47rem;
-    width: 37%;
-    }
+//     @media (max-width:$pad){
+//     margin-left: 47rem;
+//     width: 37%;
+//     }
 
-    @media (max-width:$mobile_xl){
-    // margin-left: 55rem;
-    // width: 32%;
-    // margin-top: 10vh;
-    visibility: hidden;
-    }
-}
+//     @media (max-width:$mobile_xl){
+//     // margin-left: 55rem;
+//     // width: 32%;
+//     // margin-top: 10vh;
+//     visibility: hidden;
+//     }
+// }
 
 .topbar {
     font-size: 12px;
@@ -61,17 +61,13 @@
 }
 
 
-.top-bar-width {
-    min-width: 1300px;
-}
+// .top-bar-width {
+//     min-width: 1300px;
+// }
 
 .ml-s{
     margin-left: 1.5rem;
 
-    @media(max-width:$laptop_xl){
-
-        margin-left: 0;
-    }
 }
 .weekicon{
 

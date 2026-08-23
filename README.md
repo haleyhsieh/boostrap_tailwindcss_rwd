@@ -1,7 +1,7 @@
 # Boostrap_tailwindcss_rwd
 Bootstrap/Tailwind/RWD作品集
 
-裡面有我切版作品實際上使用Boostrap/tailwindcss和一些JS動態插件範例，tailwindcss應用component概念去組件
+裡面有我切版作品實際上使用Boostrap/tailwindcss和一些JS動態插件範例，tailwindcss應用component概念去組件，方便進一步替換變數可以輕易切換darkmode或是不一樣設計風格
 
 # 🎨 RWD 切版作品集（含自設計版型 & 他人提供設計版形）
 
